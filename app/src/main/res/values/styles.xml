@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Widget.FastAndroid.Tab" parent="Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextAppearance.FastAndroid.Widget.TabWidget" parent="android:TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/tab_indicator</item>
+    </style>
+
+</resources>

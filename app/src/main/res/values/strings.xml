@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fast Android</string>
+
+    <string name="home_title_0">#0</string>
+    <string name="home_title_1">#1</string>
+    <string name="home_title_2">#2</string>
+    <string name="home_title_3">#3</string>
+</resources>
