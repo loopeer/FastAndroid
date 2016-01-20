@@ -2,6 +2,7 @@ package com.loopeer.fastandroid;
 
 import android.app.Application;
 
+import com.loopeer.andebug.AnDebug;
 import com.loopeer.fastandroid.event.SplashDisplayEvent;
 
 import de.greenrobot.event.EventBus;
@@ -11,5 +12,6 @@ public class FastAndroidApp extends Application {
     public void onCreate() {
         super.onCreate();
         EventBus.getDefault().postSticky(new SplashDisplayEvent());
+        AnDebug.install(this);
     }
 }
