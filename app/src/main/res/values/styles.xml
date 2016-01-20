@@ -13,4 +13,8 @@
         <item name="android:textColor">@color/tab_indicator</item>
     </style>
 
+    <style name="Theme.FastAndroid.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FastAndroid.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

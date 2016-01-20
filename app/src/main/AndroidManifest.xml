@@ -11,10 +11,11 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".ui.activity.SplashActivity"
-            android:theme="@style/AppTheme.Splash"
-            android:label="SplashActivity">
+            android:label="SplashActivity"
+            android:theme="@style/AppTheme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
@@ -27,6 +28,11 @@
             android:name=".ui.activity.WizardActivity"
             android:label="WizardActivity"
             android:theme="@style/AppTheme.NoActionBar.Translucent">
+        </activity>
+        <activity
+            android:name=".ui.activity.PagerTestActivity"
+            android:label="PagerActivity"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
         <meta-data
