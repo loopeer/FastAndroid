@@ -19,25 +19,30 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity
             android:name=".ui.activity.MainActivity"
             android:label="MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
+
         <activity
             android:name=".ui.activity.WizardActivity"
             android:label="WizardActivity"
-            android:theme="@style/AppTheme.NoActionBar.Translucent">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar.Translucent"/>
+
         <activity
             android:name=".ui.activity.PagerTestActivity"
             android:label="PagerActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".ui.activity.HeaderTabPagerActivity"
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:label="HeaderTabPagerActivity"/>
 
         <meta-data
             android:name="com.loopeer.andebug.API_URL"
             android:value=""/>
+
     </application>
 
 </manifest>
